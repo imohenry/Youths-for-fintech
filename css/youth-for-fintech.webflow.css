@@ -1485,8 +1485,8 @@ h1 {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 420px;
-  padding-bottom: 420px;
+  padding-top: 435px;
+  padding-bottom: 435px;
 }
 
 .quick-stack-8 {
@@ -1703,7 +1703,7 @@ h1 {
 
 .section-9 {
   max-width: 100%;
-  background-image: url('../images/WhatsApp-Image-2023-12-10-at-11.49.15-PM.jpeg');
+  background-image: url('../images/masterclass-bg.jpeg');
   background-position: 50%;
   background-size: cover;
   display: block;
@@ -2155,6 +2155,85 @@ h1 {
   padding-right: 10px;
   font-size: 18px;
 }
+
+/* FACILITATORS AREA */
+
+.facilitators_bg {
+  background-color: #e8f8ff;
+}
+
+.facil_main_heading {
+  text-align: center;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+/* ==============
+Faculty style
+=================*/
+
+.faculty_members-flex {
+  display: flex;
+  gap: 11px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.single-member {
+  max-width: 277px;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+filter: grayscale(100%);
+padding-bottom: 48px;
+}
+
+.single-member:hover {
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+filter: grayscale(0%);
+}
+
+.faculty-member-image {
+width: 100%;
+height: 350px;
+}
+
+.member-text{
+  max-width: 241.33px;
+}
+
+.member-text-heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+
+  color: #374151;
+}
+
+.member-text-heading i{ 
+  float: right;
+}
+
+
+.member-sub-text{
+  font-size: 14px;
+  line-height: 20px;
+  color: #4B5563;
+  padding-bottom: 8px;
+}
+
+.member-sub-text2{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #9CA3AF;
+}
+
+.blur-effect {
+  filter: blur(48px);
+-webkit-filter: blur(48px);
+
+}
+
 
 @media screen and (min-width: 1920px) {
   .container-3 {
@@ -2677,6 +2756,12 @@ h1 {
     margin-right: auto;
     padding-left: 0;
   }
+
+  .faculty_members-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 }
 
 @media screen and (max-width: 479px) {
