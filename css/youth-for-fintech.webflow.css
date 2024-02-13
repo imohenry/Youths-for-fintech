@@ -1623,8 +1623,8 @@ h1 {
 }
 
 .efi-h3 {
-  margin-top: -30px;
-  padding-bottom: 36px;
+  margin-top: -20px;
+  /* padding-bottom: 36px; */
 }
 
 .efi-frm-01-form-wrapper {
