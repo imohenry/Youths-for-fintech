@@ -1586,6 +1586,8 @@ h1 {
   font-weight: 600;
   line-height: 28px;
   transition: all .7s ease-in-out;
+  margin: 0 !important;
+  width: 100% !important;
 }
 
 .efi-form-button:hover {
@@ -2035,8 +2037,8 @@ h1 {
   max-width: 500px;
   color: #fff;
   padding-left: 43px;
-  font-size: 59px;
-  line-height: 51px;
+  font-size: 40px;
+  line-height: 40px;
 }
 
 .div-block-22 {
