@@ -1483,10 +1483,10 @@ h1 {
 
 .banner-container {
   max-width: 100%;
-  margin-left: auto;
+  /* margin-left: auto;
   margin-right: auto;
   padding-top: 435px;
-  padding-bottom: 435px;
+  padding-bottom: 435px; */
 }
 
 .quick-stack-8 {
@@ -1704,10 +1704,10 @@ h1 {
 }
 
 .section-9 {
-  max-width: 100%;
-  background-image: url('../images/masterclass-bg.jpeg');
+  /* max-width: 100%;
+  background-image: url('../images/Masterclass-banner.jpg');
   background-position: 50%;
-  background-size: cover;
+  background-size: cover; */
   display: block;
 }
 
@@ -1822,7 +1822,7 @@ h1 {
 }
 
 .welcome-heading {
-  padding-top: 80px;
+  padding-top: 20px;
   padding-bottom: 80px;
 }
 
@@ -2239,6 +2239,7 @@ height: 350px;
 /* New form */
 .mc-field-group {
   width: 100% !important;
+  font-family: Bricolage Grotesque, sans-serif !important;
 }
 
 .new-field {
@@ -2294,14 +2295,14 @@ height: 350px;
 
   .section-9 {
     max-width: none;
-    background-image: url('../images/WhatsApp-Image-2023-12-10-at-11.49.15-PM.jpeg');
+    background-image: url('../images/Masterclass-banner.jpg');
     background-size: cover;
     margin-top: 0;
     padding-top: 0;
   }
 
   .div-block-23 {
-    background-image: url('../images/WhatsApp-Image-2023-12-10-at-11.49.15-PM.jpeg');
+    background-image: url('../images/Masterclass-banner.jpg');
     background-position: 50%;
     background-size: cover;
     padding-top: 448px;
@@ -2512,10 +2513,10 @@ height: 350px;
   }
 
   .banner-container {
-    background-image: url('../images/responsive-banner.png');
+    /* background-image: url('../images/Masterclass-banner.jpg');
     background-size: cover;
     padding-top: 530px;
-    padding-bottom: 630px;
+    padding-bottom: 430px; */
   }
 
   .heading-15 {
@@ -2743,15 +2744,15 @@ height: 350px;
 
   .banner-container {
     width: 100%;
-    max-width: none;
-    background-image: url('../images/responsive-banner.png');
+    /* max-width: none;
+    background-image: url('../images/Masterclass-banner.jpg');
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
     background-repeat: no-repeat;
     padding-left: 0;
     padding-right: 0;
-    padding-top: 185px;
-    padding-bottom: 630px;
+    /* padding-top: 185px;
+    padding-bottom: 630px; */
   }
 
   .efi-form-button {
@@ -3000,7 +3001,7 @@ height: 350px;
 
   .banner-container {
     background-size: cover;
-    padding-top: 538px;
+    /* padding-top: 538px; */
     padding-bottom: 0;
   }
 
