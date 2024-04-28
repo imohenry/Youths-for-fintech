@@ -1735,7 +1735,8 @@ h1 {
   font-size: 31px;
   font-weight: 600;
   line-height: 37px;
-  display: flex;
+  /* display: flex; */
+  margin-left: -20px ;
 }
 
 .div-block-13 {
@@ -1749,7 +1750,8 @@ h1 {
   max-width: 70px;
   background-color: #b0cde6;
   border-radius: 18px;
-  padding: 4px 12px;
+  padding: 4px 12px 4px 8px;
+  margin-bottom: 10px;
 }
 
 .section-10 {
