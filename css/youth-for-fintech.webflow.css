@@ -2263,12 +2263,13 @@ backdrop-filter: blur(40px); */
 .faculty-member-image {
 width: 100%;
 border-radius: 11px;
-height: 350px;
+height: auto;
 }
 
 .member_image_container {
-  max-width: 300px;
+  max-width: 260px;
   margin-bottom: 20px;
+  
 }
 
 .member-text{
