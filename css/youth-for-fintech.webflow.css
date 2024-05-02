@@ -2166,13 +2166,21 @@ h1 {
   display: none;
 }
 
+.footer-brand {
+  width: 150px;
+}
+
 @media (max-width: 600px) {
   .masterclass-desktop {
-    display: none;
+    display: block;
   }
 
   .masterclass-responsive {
-    display: block;
+    display: none;
+  }
+
+  .heading-20 {
+    font-size: 17px;
   }
 
 }
@@ -2239,8 +2247,8 @@ backdrop-filter: blur(40px); */
 
 #Olufemi {
   background-image: 
-  linear-gradient(172deg, #6a6a6a, #8D7A02, #070909) !important;
-  border: 2px solid #e0e0e0;
+  linear-gradient(172deg, #6f8696, #0050bd, #070909) !important;
+  border: 2px solid #76b3dc;
 }
 
 #ife {
