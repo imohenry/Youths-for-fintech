@@ -2172,11 +2172,11 @@ h1 {
 
 @media (max-width: 600px) {
   .masterclass-desktop {
-    display: block;
+    display: none;
   }
 
   .masterclass-responsive {
-    display: none;
+    display: block;
   }
 
   .heading-20 {
