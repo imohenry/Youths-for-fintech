@@ -1736,22 +1736,20 @@ h1 {
   font-weight: 600;
   line-height: 37px;
   /* display: flex; */
-  margin-left: -20px ;
 }
 
 .div-block-13 {
   max-width: 700px;
   padding-top: 25px;
   padding-bottom: 21px;
-  padding-left: 51px;
+  padding-left: 20px;
 }
 
 .text-block-14 {
   max-width: 70px;
   background-color: #b0cde6;
   border-radius: 18px;
-  padding: 4px 12px 4px 8px;
-  margin-bottom: 10px;
+  padding: 4px 12px;
 }
 
 .section-10 {
@@ -2160,16 +2158,44 @@ h1 {
   font-size: 18px;
 }
 
+.masterclass-desktop {
+  display: block;
+}
+
+.masterclass-responsive {
+  display: none;
+}
+
+.footer-brand {
+  width: 150px;
+}
+
+@media (max-width: 600px) {
+  .masterclass-desktop {
+    display: none;
+  }
+
+  .masterclass-responsive {
+    display: block;
+  }
+
+  .heading-20 {
+    font-size: 17px;
+  }
+
+}
+
 /* FACILITATORS AREA */
 
 .facilitators_bg {
-  background-color: #e8f8ff;
+  background-color: #101046;
 }
 
 .facil_main_heading {
   text-align: center;
   max-width: 850px;
   margin: 0 auto;
+  color: #fff;
 }
 
 /* ==============
@@ -2184,24 +2210,79 @@ Faculty style
 }
 
 .single-member {
-  max-width: 277px;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-filter: grayscale(100%);
-padding-bottom: 48px;
+  width: 350px;
+  /* -webkit-filter: grayscale(100%); 
+  
+filter: grayscale(100%); */
+/* padding: 0 20px; */
+    border: 2px solid transparent;
+    background: linear-gradient(110deg, #080509, #1a171c, #080509);
+    background-clip: padding-box;
+    border-radius: 18px;
+    padding: 40px;
+    margin-bottom: 20px;
+/* padding-bottom: 48px; */
+/* border-radius: 9px;
+backdrop-filter: blur(40px); */
+/* border: 2px solid #72bf44 !important; */
 }
 
+#ik {
+  background-image: 
+  linear-gradient(71deg, #0d1212, #002f71, #0d1212) !important;
+  border: 2px solid #0050bd;
+}
+
+#suzan {
+  background-image: 
+  linear-gradient(71deg, #0d1212, #575e4d, #0d1212) !important;
+  border: 2px solid #189454;
+}
+
+#Oti {
+  background-image: 
+  linear-gradient(112deg, #a8a2a2, #161714, #0d1212) !important;
+  border: 2px solid #626463;
+}
+
+#Olufemi {
+  background-image: 
+  linear-gradient(172deg, #6f8696, #0050bd, #070909) !important;
+  border: 2px solid #76b3dc;
+}
+
+#ife {
+  background-image: 
+  linear-gradient(170deg, #aba4a4, #747474, #0d1212) !important;
+  border: 2px solid #626463;
+}
+
+#daniel {
+  background-image: 
+  linear-gradient(28deg, #646464, #000, #000) !important;
+  border: 2px solid #22e496;
+}
+
+
 .single-member:hover {
-  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
-filter: grayscale(0%);
+  scale: (30px);
 }
 
 .faculty-member-image {
 width: 100%;
-height: 350px;
+border-radius: 11px;
+height: auto;
+}
+
+.member_image_container {
+  max-width: 260px;
+  margin-bottom: 20px;
+  
 }
 
 .member-text{
   max-width: 241.33px;
+ 
 }
 
 .member-text-heading {
@@ -2210,7 +2291,7 @@ height: 350px;
   font-size: 20px;
   line-height: 32px;
 
-  color: #374151;
+  color: #fff;
 }
 
 .member-text-heading i{ 
@@ -2221,15 +2302,15 @@ height: 350px;
 .member-sub-text{
   font-size: 14px;
   line-height: 20px;
-  color: #4B5563;
+  color: #fff;
   padding-bottom: 8px;
 }
 
 .member-sub-text2{
   font-weight: 400;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 16px;
-  color: #9CA3AF;
+  color: #fff;
 }
 
 .blur-effect {
