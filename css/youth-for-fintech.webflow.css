@@ -2170,7 +2170,7 @@ h1 {
   width: 150px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 601px) {
   .masterclass-desktop {
     display: none;
   }
